@@ -6,14 +6,14 @@ export default function Header() {
     <>
       <header>
         <h1>
-          <Link to="/">Colleen Murray</Link>
+          <Link className='globalLink' to="/">Colleen Murray</Link>
         </h1>
         <nav>
           <ul>
-            <li><Link to="/about">about</Link></li>
-            <li><Link to="/work">work</Link></li>
-            <li><Link to="/resume">resume</Link></li>
-            <li><Link to="/contact">contact</Link></li>
+            <li><Link className='globalLink' to="/about">about</Link></li>
+            <li><Link className='globalLink' to="/work">work</Link></li>
+            <li><Link className='globalLink' to="/resume">resume</Link></li>
+            <li><Link className='globalLink' to="/contact">contact</Link></li>
           </ul>
         </nav>
       </header>

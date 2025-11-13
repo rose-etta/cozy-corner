@@ -1,0 +1,38 @@
+.grid-container {
+  padding: 20px 60px;
+  display: table;
+}
+
+.built-using {
+  padding: 20px;
+}
+
+.contact-item, .contact-link {
+  line-height: 30px;
+  vertical-align: middle;
+  color: var(--color-text-secondary)
+}
+
+.contact-item:hover, .contact-link:hover {
+  color: var(--color-accent)
+}
+
+.contact-item:visited, .contact-link:visited {
+  text-decoration: none;
+  color: var(--color-text-secondary)
+}
+
+i {
+  line-height: 30px;
+  display: table-cell
+}
+
+.contact-link {
+
+  display: table-cell;
+
+}
+
+#footer {
+  margin-top: 80px;
+}

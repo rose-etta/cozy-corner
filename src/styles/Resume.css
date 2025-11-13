@@ -1,0 +1,55 @@
+.centered-grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* .resume-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 140%;
+} */
+
+/* .resume-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.resume a {
+  width: 100%;
+} */
+
+.skills-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skills div {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.skills div {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+/* .resume-link {
+  text-align: center;
+  margin-top: 10px;
+} */
+
+.list-item {
+  margin-bottom: 10px;
+}

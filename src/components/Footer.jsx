@@ -4,7 +4,7 @@ import '../styles/Footer.css'
 function Footer() {
   return (
     <footer id="footer">
-      <h4>Let's Connect!</h4>
+      <h4 className='lets-connect'> Let's Connect!</h4>
       <Grid
         container
         className="grid-container"
@@ -46,7 +46,7 @@ function Footer() {
             <i className="fa-solid fa-desktop fa-2x"></i>
             <a
               className="contact-link"
-              href="https://github.com/colleenkhm"
+              href="https://github.com/rose-etta"
               target="_blank"
               rel="noopener noreferrer"
               title="Github"

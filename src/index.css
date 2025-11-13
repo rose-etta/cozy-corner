@@ -1,13 +1,98 @@
-body {
+:root {
+  --color-bg: #2E2F3E;
+  --color-text-primary: #F5EDE8;
+  --color-text-secondary: #A8C0A0;
+  --color-tertiary: #7F7A95;
+  --color-accent: #5A7A63;
+  --color-accent-light: #9BB89F;
+  --color-heading: #B392B8;
+}
+
+
+#root {
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+html, body, #root {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  height: 100%;
+  background-color: var(--color-bg);
+}
+
+
+body {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+h1, h2, h3 {
+  color: var(--color-tertiary);
+}
+p, span {
+  color: var(--color-text-secondary);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+button {
+  background-color: var(--color-text-secondary); /* lighter button for contrast */
+  color: var(--color-bg); /* text matches background for cozy look */
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+}
+
+.card {
+  background-color: var(--color-text-secondary); /* dusty rose cards */
+  color: var(--color-bg); /* burgundy text inside cards */
+  border-radius: 8px;
+  padding: 1em;
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Playfair Display', monospace, serif;
 }
+
+.section-container {
+  margin: 50px 30px 30px 30px;
+}
+
+.AppLayout {
+  text-align: center;
+  max-width: 100%;
+}
+
+.globalLink {
+  color: var(--color-accent)
+}
+
+.globalLink:hover {
+  color: var(--color-text-secondary)
+}
+
+.globalLink:visited {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
