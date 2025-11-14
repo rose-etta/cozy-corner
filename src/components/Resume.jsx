@@ -19,13 +19,12 @@ function Resume() {
               <div className="list-item">React.js</div>
               <div className="list-item">Express.js</div>
               <div className="list-item">Handlebars.js</div>
-              <div className="list-item">Express.js</div>
               <div className="list-item">Node.js</div>
               <div className="list-item">GraphQL</div>
               <div className="list-item">Apollo Client</div>
-              <div className="list-item">Git/Github/Gitlab</div>
-              <div className="list-item">SQL/MySQL/Sequelize</div>
-              <div className="list-item">MongoDB/Mongoose</div>
+              <div className="list-item">Git</div>
+              <div className="list-item">SQL</div>
+              <div className="list-item">MongoDB</div>
               <div className="list-item">Insomnia</div>
               <div className="list-item">Jest Testing</div>
               <div className="list-item">AWS</div>
