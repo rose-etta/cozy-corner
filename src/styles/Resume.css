@@ -5,16 +5,16 @@
   text-align: center;
 }
 
-/* .resume-image {
+.resume-image {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-width: 140%;
-} */
+}
 
-/* .resume-image img {
-  max-width: 100%;
+.resume-image img {
+  width: 100%;
+  max-width: 300px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -25,7 +25,7 @@
 
 .resume a {
   width: 100%;
-} */
+}
 
 .skills-container {
   margin: 0 auto;
@@ -45,11 +45,16 @@
   font-size: 15px;
   margin-bottom: 10px;
 }
-/* .resume-link {
+.resume-link {
   text-align: center;
   margin-top: 10px;
-} */
+}
 
 .list-item {
   margin-bottom: 10px;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
 }

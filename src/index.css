@@ -26,8 +26,10 @@ html, body, #root {
 
 body {
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: 'Lexend', sans-serif;
+  /* font-family: 'Barlow', sans-serif; */
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -55,10 +57,6 @@ button {
   color: var(--color-bg); /* burgundy text inside cards */
   border-radius: 8px;
   padding: 1em;
-}
-
-code {
-  font-family: 'Playfair Display', monospace, serif;
 }
 
 .section-container {

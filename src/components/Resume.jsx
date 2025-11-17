@@ -1,14 +1,14 @@
-import { Grid } from '@mui/material'
-// import portfolioResume from '../assets/colleen-murray-portfolio-resume.pdf'
+import Grid from '@mui/material/Grid'
+import portfolioResume from '../assets/colleen-resume.pdf'
 import '../styles/Resume.css'
-// import resumeScreenshot from '../assets/resume-screenshot.png'
+import resumeScreenshot from '../assets/colleen-resume-screenshot.png'
 
 function Resume() {
   return (
     <div className="skills-container">
       <div>
-        <Grid container spacing={60}>
-          <Grid item xs={12} md={6}>
+        <Grid container spacing={20}>
+          <Grid item xs={12} md={4} className="column">
             <div className="skills" id="technical-skills">
               <h4>Technical Skills</h4>
               <div className="list-item">HTML</div>
@@ -32,7 +32,7 @@ function Resume() {
             </div>
           </Grid>
 
-          {/* <Grid item xs={12} md={6} className="centered-grid-item">
+          <Grid item xs={12} md={4} className="centered-grid-item">
             <div className="resume-image">
               <img src={resumeScreenshot} alt="resume"></img>
               <div className="resume-link">
@@ -46,8 +46,8 @@ function Resume() {
                 </a>
               </div>
             </div>
-          </Grid> */}
-          <Grid item xs={12} md={6}>
+          </Grid>
+          <Grid item xs={12} md={4}>
             <div className="skills" id="soft-skills">
               <h4>Other Strengths</h4>
               <div className="list-item">Adaptability</div>
